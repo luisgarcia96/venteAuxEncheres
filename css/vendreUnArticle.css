@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+main {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+}
+
+h1{
+	font-family:'Teko', sans-serif;
+	font-size: 50px;
+}
+
+h2 {
+	font-family:'Teko', sans-serif;
+	font-size: 30px;
+	margin-top: 0px;
+}
+
+form div {
+	margin: 10px;
+}
+
+#descriptionVente {
+	padding-top: 20px;
+}
+
+#descriptionContent {
+	vertical-align: top;
+}
+
+label {
+	font-size: 25px;
+	font-weight: 200;
+	margin-right: 5px;
+}
+
+input {
+	height: 30px;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 6px;
+}
+
+select{
+	height: 30px;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 6px;
+}
+
+textarea {
+	border-style: solid;
+	border-width: thin;
+	border-radius: 6px;
+}
+
+#retrait {
+	border-style: solid;
+	border-width: thin;
+	border-radius: 6px;
+}
+
+#retraitTitle {
+	margin: 10px;
+}
+
+.validation {
+	padding: 5px;
+	margin: 5px;
+}
+
+p {
+	font-size: 25px;
+	font-weight: 200;
+	margin-right: 5px;
+}
+
+#imageArticle {
+	height: 20px;
+}
+
+.erreur {
+	font-family:'Teko', sans-serif;
+	font-size: 20px;
+	color: red;
+	
+}
+

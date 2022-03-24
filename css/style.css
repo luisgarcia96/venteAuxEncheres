@@ -1,0 +1,176 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600&display=swap');
+*{
+	margin : 0;
+	padding : 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+.max-width{
+	max-width: 1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+
+/*Navigation bar */
+.navbar{
+	position: fixed;
+	width:100%;
+	padding:15px 0;
+	font-family:'Teko', sans-serif;
+	background : black;
+}
+
+.navbar .max-width{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.navbar .logo a{
+	color: white;
+	font-size: 40px;
+	font-weight: 600px;
+}
+
+.navbar .logo a span{
+	color: #139FCD;
+}
+
+.navbar .menu li {
+	list-style: none;
+	display: inline-block;
+}
+
+.navbar .menu li a{
+	display: block;
+	color: white;
+	font-size: 25px;
+	font-weight: 500px;
+	margin-left:25px;
+}
+
+.navbar .menu li a:hover{
+	color: #139FCD;
+}
+
+.deconnexion{
+	width:100%;
+	padding: 5px;
+	cursor:pointer;
+	border:0;
+	background-color: #139FCD;
+	color:white;
+	font-family:'Teko', sans-serif;
+	font-size: 20px;
+	font-weight : 300;
+	border-radius:6px;
+}
+
+/*Home section styling*/
+section{
+	padding : 100px 0;
+	font-family:'Teko', sans-serif;
+}
+
+.home-content,
+.connexion-content{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+section .title{
+	position: relative;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 60px;
+	padding-top: 30px;
+	font-family:'Teko', sans-serif;
+}
+
+.home .home-content .left{
+	width: 50%;
+}
+
+/*Filter Field & Button styling*/
+.filter{
+	margin-top : -40px;
+	margin-left: 40px;
+}
+.search{
+	font-size: 25px;
+	font-weight : 300;
+}
+
+
+#search,
+.list{	
+	padding: 7px;
+	box-sizing : border-box;
+	margin: 10px 0;
+	border: 1px solid grey;
+	outline:none;
+	border-radius:6px;
+}
+
+.list{
+	width:30%;
+	margin-left : 5px;
+}
+
+#search:focus,
+.list:focus,
+.ch-identifiant:focus,
+.ch-password:focus,
+#souvenir:focus{
+	border-color: #139FCD;
+	box-shadow: 0 0 8px #139FCD;
+}
+
+/*Category Styling*/
+.category{
+	font-size: 25px;
+	font-weight : 300;
+	margin-left: 20px;
+}
+
+.home .home-content .right{
+	width:50%;
+}
+.btn{
+	width:50%;
+	padding: 30px;
+	margin-top: -20px ;
+	cursor:pointer;
+	border:0;
+	background-color: #139FCD;
+	color:white;
+	font-family:'Teko', sans-serif;
+	font-size: 20px;
+	font-weight : 300;
+	border-radius:6px;
+}
+
+
+
+
+/*Footer Styling*/
+footer{
+	width: 100%;
+	background : black;
+	padding:20px 23px;
+	font-family: 'Courier New', Courier, monospace;
+	text-align:center;
+	color : white;
+	position: fixed;
+	bottom: 0;
+}
+
+footer span a{
+	color: white;
+	text-decoration: none;
+}

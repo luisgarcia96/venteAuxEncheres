@@ -1,0 +1,81 @@
+@charset "UTF-8";
+main{
+	position: relative;
+	top: 125px;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 150px;
+}
+
+#createUserForm{
+	width: 80%;
+	margin: 200px auto;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+h2{
+	position: relative;
+	top: 125px;
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 60px;
+	padding-top: 30px;
+	font-family:'Teko', sans-serif;
+}
+
+/* block error */
+.error{
+	width: 80%;
+	margin: 20px auto;
+	padding: 10px;
+	color: red;
+	background-color: #babdb6;
+	min-height: 80px;
+	border: 2px solid red;
+	position: relative;
+	top: 125px;
+	text-align: center;
+	font-size: 26px;
+}
+
+.form-block{
+	width: 50%;
+	text-align: right;
+	margin-bottom: 20px;
+}
+
+.form-block > *{
+	width: 50%;
+}
+
+input {
+	padding: 7px;
+	box-sizing : border-box;
+	border: 1px solid grey;
+	outline:none;
+	border-radius:6px;
+}
+
+label{
+	margin-right: 20px;
+	font-size: 25px;
+	font-weight : 300;
+}
+
+#submit{
+	width: 40%;
+	padding: 25px;
+	margin: 50px auto;
+	cursor:pointer;
+	border:0;
+	background-color: #139FCD;
+	color:white;
+	font-family:'Teko', sans-serif;
+	font-size: 26px;
+	font-weight : 300;
+	text-decoration : none;
+	border-radius:6px;
+}

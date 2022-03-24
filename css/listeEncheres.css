@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+main {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+}
+
+.article {
+	padding-top: 0px;
+	margin: 50px;
+}
+
+.resultat {
+	display: flex;
+	border-style: solid;
+	border-width: thin;
+	border-radius: 6px;
+	padding: 15px;
+	align-items: top;
+	width: 650px
+}
+
+img {
+	height: 300px;
+	border-radius: 6px;
+	
+}
+
+.informationResultat {
+	margin: 25px;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight: 600;
+}
+
+p{
+	font-size: 20px;
+	font-weight: 400;
+}
+
+a#utilisateur {
+	text-decoration: underline;
+}
+
+#pasDeResultat {
+	font-family:'Teko', sans-serif;
+	font-size: 30px;
+}
